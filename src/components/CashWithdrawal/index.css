@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #d4d2db;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  background-color: #150b3e;
+  height: 60%;
+  width: 60%;
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name-symbol {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #d4d2db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.initial {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 35px;
+  text-align: center;
+}
+.name {
+  padding-left: 20px;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  color: #c4c4c4;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.description-balance {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  color: #585076;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #d4d2db;
+  font-weight: 600;
+}
+.currency {
+  font-size: 20px;
+  font-weight: 500;
+  color: #585076;
+}
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #d4d2db;
+  font-weight: 600;
+}
+.choose-sum {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #585076;
+  font-weight: 500;
+}
+.denomination-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+}
